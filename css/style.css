@@ -17,6 +17,7 @@
     font-weight: 400;
     src: local('Avenir Next LT Pro'), url('https://fonts.cdnfonts.com/s/13217/AvenirNextLTPro-Regular.woff') format('woff');
 }
+
 html{
     scroll-behavior:smooth;
 }
@@ -93,6 +94,10 @@ nav ul{
     }
     .menu-button{
         display: block;
+        position:absolute;
+        right: 0;
+        top:0;
+        padding-top: 3.5em;
     }
     .header-button{
         display:none;
