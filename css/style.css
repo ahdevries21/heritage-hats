@@ -3,20 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: 'youngserif';
-    src: url('youngserif-regular.eot');
-    src: url('youngserif-regular.eot?#iefix') format('embedded-opentype'),
-         url('youngserif-regular.svg#youngserifregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Avenir Next LT Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Avenir Next LT Pro'), url('https://fonts.cdnfonts.com/s/13217/AvenirNextLTPro-Regular.woff') format('woff');
-}
 
 html{
     scroll-behavior:smooth;
