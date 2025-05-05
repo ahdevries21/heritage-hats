@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heritage Hats</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Heritage Hats</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="myScript.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="images/logo.png" alt="Company Logo" width="160" height="96">
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Hat Types</a></li>
+	<header>
+		<nav>
+			<img src="images/logo.png" alt="Company Logo" width="160" height="96" class="company-logo">
+			<ul class="sidebar">
+				<li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="66px"
+							viewBox="0 -960 960 960" width="66px" fill="#F5F5DC">
+							<path
+								d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+						</svg></a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Hat Types</a></li>
 				<li><a href="#">Restoration Services and Tips</a></li>
 				<li><a href="#">What Customers Say</a></li>
 				<li><a href="#">Events and Conventions</a></li>
-            </ul>
-            <button type="button">Contact</button>
-        </nav>
-		
-		
-		<!--
-        <h1>Hats that Keep Arizona Covered</h1>
-		<p>We provide quality custom made and brand name hats with a variety of styles for customers in Arizona and nationwide.</p>
-		<h5> As Featured In:</h5>
-		<img src="images/Arizona-Highway-Logo.jpg" alt="Arizona Highway Logo">
-		<img src="images/Arizona-Republic-Logo.jpg" alt="Arizona Republic Logo">
-    </header>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<ul>
+				<li class="hideOnMobile"><a href="#">About Us</a></li>
+				<li class="hideOnMobile"><a href="#">Hat Types</a></li>
+				<li class="hideOnMobile"><a href="#">Restoration Services and Tips</a></li>
+				<li class="hideOnMobile"><a href="#">What Customers Say</a></li>
+				<li class="hideOnMobile"><a href="#">Events and Conventions</a></li>
+				<li class="hideOnMobile"><a href="#">Contact</a></li>
+				<li class="menu-button" onclick="showSidebar()"><a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" height="66px" viewBox="0 -960 960 960" width="66px"
+							fill="#F5F5DC">
+							<path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+						</svg></a></li>
+			</ul>
+			<button type="button" class="header-button">Contact</button>
+		</nav>
+		<!--<div>
+			<h1>Hats that Keep Arizona Covered</h1>
+			<p>We provide quality custom made and brand name hats with a variety of styles for customers in Arizona and
+				nationwide.</p>
+			<h5> As Featured In:</h5>
+			<img src="images/Arizona-Highway-Logo.jpg" alt="Arizona Highway Logo" width="" heig>
+			<img src="images/Arizona-Republic-Logo.jpg" alt="Arizona Republic Logo">
+		</div>
+	</header>
+
+	<!--
     <main>
         <section>
             <img src="images/About Us Images.png">
