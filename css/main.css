@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    min-height: 100vh;
+}
+/*Header Content*/
+header{
+    background-image: url(../images/Heritage-Hats-Header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    padding: 0.5em 2.75em;
+}
+nav{
+    background: none;
+    display: inline-flex;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+ nav li{
+    height: 3.125em;
+    display: inline;
+ }
+ nav a{
+    height: 100%;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    color:#D2B48C;
+    font-family: 'Avenir Next LT Pro';
+ }
+ nav a:hover{
+    color:#A76825;
+ }
+.company-logo{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width: 15.625em;
+    z-index: 999;
+    background-color:#273F5B;
+    display: none;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width:-100%;
+}
+.sidebar a{
+    width: -100%;
+}
+.menu-button{
+    display: none;
+}
+
+
+
+/*Repsonsive */
+@media(max-width:800px){
+    .hideOnMobile{
+        display:none;
+    }
+    .menu-button{
+        display: block;
+        position:absolute;
+        right: 0;
+        top:0;
+        padding-top: 3.5em;
+    }
+    .header-button{
+        display:none;
+    }
+}
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
+}
