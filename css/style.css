@@ -50,3 +50,21 @@ img{
 	max-width: 100%;
 	height: auto;
 }
+/* Buttons */
+button{
+	font-family: 'Avenir Next LT Pro';
+	width: 100%;
+	max-width: 223px;
+	min-height: 77px;
+	height: 100%;
+	font-size: 1.0625em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 1.5em;
+	background-color:#273F5B;
+	color:#F5F5DC;
+	border-radius: 0.3125em;
+	border:none;
+	cursor:pointer;
+}

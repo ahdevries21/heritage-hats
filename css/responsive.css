@@ -1,0 +1,21 @@
+@media(max-width:800px){
+    .hideOnMobile{
+        display:none;
+    }
+    .menu-button{
+        display: block;
+        position:absolute;
+        right: 0;
+        top:0;
+        padding-top: 3.5em;
+    }
+    .header-button{
+        display:none;
+    }
+}
+
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
+}

@@ -21,18 +21,23 @@ header{
 }
 nav{
     background: none;
-    display: inline-flex;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
 }
 nav ul{
     width: 100%;
     list-style: none;
-    display:flex;
-    justify-content: flex-end;
+    display: inline-flex;
+    justify-content: center;
     align-items:center;
 }
  nav li{
     height: 3.125em;
     display: inline;
+    justify-content: space-between;
  }
  nav a{
     height: 100%;
@@ -70,27 +75,33 @@ nav ul{
 .menu-button{
     display: none;
 }
-
-
-
-/*Repsonsive */
-@media(max-width:800px){
-    .hideOnMobile{
-        display:none;
-    }
-    .menu-button{
-        display: block;
-        position:absolute;
-        right: 0;
-        top:0;
-        padding-top: 3.5em;
-    }
-    .header-button{
-        display:none;
-    }
+.hero-content{
+    color:#F5F5DC;
 }
-@media(max-width:400px){
-    .sidebar{
-        width: 100%;
-    }
+.hero-content h1, h5, p{
+    margin: 0.5em auto;
+}
+/*About Us*/
+#about-us{
+    width: 100%;
+    max-width: 1298px;
+    min-height: 570px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#about-us img{
+    width: 100%;
+    max-width: 573px;
+    min-height: 510px;
+    height: auto;
+}
+
+.about-us-content{
+    width: 100%;
+    max-width: 573px;
+    min-height: 510px;
 }
