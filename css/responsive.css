@@ -31,14 +31,13 @@
     }
     #about-us{
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     min-height: 570px;
     height: auto;
     }
     .hat-gallery{
         display: grid;
         grid-template-columns: 1fr;
-       
     }
     
 }
