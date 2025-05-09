@@ -70,5 +70,18 @@
         position: relative;
         top:0;
     }
+    .gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content:center;
+        gap: 1em;
+        margin: 0;
+    }
+    .phone{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 0.75em 0;
+    }
     
 }

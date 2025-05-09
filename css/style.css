@@ -68,6 +68,14 @@ button{
 	border:none;
 	cursor:pointer;
 }
+a{
+	text-decoration:none; 
+	color:#A76825;
+}
+
+a:hover{
+	color:#D2B48C;
+}
 .header-button a{
 	color:#F5F5DC;
 	text-decoration: none;

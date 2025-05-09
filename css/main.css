@@ -165,3 +165,40 @@ nav ul{
     color: #F5F5DC;
     padding: 1em 1.5em;
   }
+
+  #what-customers-say{
+    margin: 2em 2em;
+    background-image: url(../images/Woodbackground.jpg);
+    background-size: cover;
+    color: #F5F5DC;
+    padding: 1em 1.5em;
+  }
+  #what-customers-say h2{
+    text-align: center;
+  }
+  .quote-1,.quote-2{
+    display: none;
+  }
+  #events-and-conventions{
+    margin: 2em 2em;
+  }
+  .gallery{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.75em;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 3em;
+  }
+  .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0;
+  }
