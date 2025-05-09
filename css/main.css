@@ -109,3 +109,34 @@ nav ul{
     align-items: center;
     margin: 1.5em 0;
 }
+#restoration-services{
+    margin: 2em 2em;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em
+}
+.card-1,.card-2{
+    display: block;
+    align-items: center;
+}
+.container-1{
+    background-color:#4682B4;
+    color:#F5F5DC;
+    text-align: center;
+    padding: 1em 0.5em ;
+    max-width: 281px;
+}
+.container-2{
+    background-color:#D2B48C;
+    color:#273F5B;
+    text-align: center;
+    padding: 1em 0.5em;
+    max-width: 281px;
+}
+.icon{
+    position:relative;
+    left: 32%;
+    top: 15%;
+}

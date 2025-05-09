@@ -1,4 +1,4 @@
-@media(max-width:800px){
+@media screen and (max-width:900px){
     .hideOnMobile{
         display:none;
     }
@@ -22,10 +22,21 @@
         grid-template-columns: 1fr 1fr;
         gap: 0.25em;
     }
+    .services{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-1, .container-2{
+        max-width: 100%;
+    }
+    .icon{
+        position:relative;
+        left: 35%;
+    }
 }
 
 
-@media(max-width:400px){
+@media(max-width: 500px){
     .sidebar{
         width: 100%;
     }
@@ -38,6 +49,19 @@
     .hat-gallery{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 0.5em;
+        justify-content: center;
+    }
+    .container-1, .container-2{
+        max-width: 100%;
+    }
+    .icon{
+        position:relative;
+        left: 37%;
     }
     
 }
