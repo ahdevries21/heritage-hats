@@ -94,10 +94,12 @@ nav ul{
 }
 /*Hat Types*/
 #hat-types{
-    margin: 2em 3em;
+    margin: 2em 2em;
+
 }
 .hat-gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
+    text-align:center;
 }

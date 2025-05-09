@@ -17,6 +17,11 @@
     grid-template-columns: 1fr;
     gap: 2em;
     }
+    .hat-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.25em;
+    }
 }
 
 
@@ -29,6 +34,11 @@
     max-width: 400px;
     min-height: 570px;
     height: auto;
+    }
+    .hat-gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+       
     }
     
 }
