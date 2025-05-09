@@ -68,3 +68,17 @@ button{
 	border:none;
 	cursor:pointer;
 }
+.header-button a{
+	color:#F5F5DC;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+button:hover{
+	background-color:#4682B4;
+	color:#F5F5DC;
+	box-shadow: 0 0 0 4px white, 0 0 0 8px #4682B4;
+	transition: 0.5s;
+}

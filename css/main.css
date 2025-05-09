@@ -140,3 +140,28 @@ nav ul{
     left: 32%;
     top: 15%;
 }
+.reminder{
+   text-align: center;
+   margin: 1em 1em;
+}
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+  .containter,.content-1,.content-2{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top*/
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .content-1{
+    background-color: #D2B48C;
+    color: #273F5B;
+    padding: 1em 1.5em;
+  }
+  .content-2{
+    background-color: #4682B4;
+    color: #F5F5DC;
+    padding: 1em 1.5em;
+  }

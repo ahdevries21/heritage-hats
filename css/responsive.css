@@ -41,10 +41,10 @@
         width: 100%;
     }
     #about-us{
-    width: 100%;
-    max-width: 300px;
-    min-height: 570px;
-    height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+  
     }
     .hat-gallery{
         display: grid;
@@ -62,6 +62,13 @@
     .icon{
         position:relative;
         left: 37%;
+    }
+    .container{
+        display: block;
+    } 
+    .content-1,.content-2{
+        position: relative;
+        top:0;
     }
     
 }
