@@ -12,10 +12,23 @@
     .header-button{
         display:none;
     }
+    #about-us{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    }
 }
+
 
 @media(max-width:400px){
     .sidebar{
         width: 100%;
     }
+    #about-us{
+    width: 100%;
+    max-width: 400px;
+    min-height: 570px;
+    height: auto;
+    }
+    
 }

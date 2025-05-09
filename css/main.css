@@ -83,25 +83,21 @@ nav ul{
 }
 /*About Us*/
 #about-us{
-    width: 100%;
-    max-width: 1298px;
-    min-height: 570px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    margin: 2em 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
 }
-
 #about-us img{
     width: 100%;
-    max-width: 573px;
-    min-height: 510px;
-    height: auto;
+    max-width: 651px;
 }
-
-.about-us-content{
-    width: 100%;
-    max-width: 573px;
-    min-height: 510px;
+/*Hat Types*/
+#hat-types{
+    margin: 2em 3em;
+}
+.hat-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
 }
