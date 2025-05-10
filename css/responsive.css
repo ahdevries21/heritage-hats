@@ -1,3 +1,4 @@
+
 @media screen and (max-width:900px){
     .hideOnMobile{
         display:none;
@@ -16,6 +17,8 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
+    justify-content: center;
+    align-items: center;
     }
     .hat-gallery{
         display: grid;
@@ -25,18 +28,61 @@
     .services{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        row-gap: 0.15em;
+        column-gap: 0.10em;
     }
-    .container-1, .container-2{
-        max-width: 100%;
+    .card-1{
+        display: inline;
+    } 
+    .card-1,.card-2{
+        display: block;
+        align-items: center;
+    }
+    .content-1,.content-2{
+        position: relative;
+        top:0;
     }
     .icon{
         position:relative;
-        left: 35%;
+        left: 100px;
+        top: 30px;
+    }
+    .gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content:center;
+        gap: 0.75em;
+        margin: 0;
+    }
+    .phone{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 0.25em 0;
+        max-width: 100%;
+        height: auto;
+    }
+    .images{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .footer-content{
+        margin: 2em 3em;
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    .phone-number, .location{
+        display: flex;
+        align-items: center;
+        margin: 1em 0 1em 0 ;
     }
 }
 
 
-@media(max-width: 500px){
+@media(max-width: 600px){
     .sidebar{
         width: 100%;
     }
@@ -74,14 +120,31 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
         justify-content:center;
-        gap: 1em;
+        gap: 0.75em;
         margin: 0;
     }
+
     .phone{
         display: flex;
         justify-content: center;
         align-items:center;
-        margin: 0.75em 0;
+        margin: 0.25em 0;
+        max-width: 100%;
+        height: auto;
     }
+    
+    .footer-content{
+        margin: 2em 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5em 1em;
+    }
+    .phone-number, .location{
+        display: flex;
+        align-items: center; 
+        margin: 0.75em 0;  
+     }
     
 }

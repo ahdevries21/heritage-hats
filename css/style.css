@@ -1,3 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    min-height: 100vh;
+}
+
 /*Font Import*/
 @font-face {
     font-family: 'youngserif';
@@ -51,7 +64,7 @@ img{
 	height: auto;
 }
 /* Buttons */
-button{
+button,.header-button{
 	font-family: 'Avenir Next LT Pro';
 	width: 100%;
 	max-width: 223px;
@@ -67,6 +80,7 @@ button{
 	border-radius: 0.3125em;
 	border:none;
 	cursor:pointer;
+	
 }
 a{
 	text-decoration:none; 
@@ -76,15 +90,18 @@ a{
 a:hover{
 	color:#D2B48C;
 }
-.header-button a{
-	color:#F5F5DC;
-	text-decoration: none;
-	padding: 0;
-	margin: 0;
+.header-button{
 	display: flex;
-	justify-content: center;
+	justify-content:center;
+	align-items: center;
 }
 button:hover{
+	background-color:#4682B4;
+	color:#F5F5DC;
+	box-shadow: 0 0 0 4px white, 0 0 0 8px #4682B4;
+	transition: 0.5s;
+}
+.header-button:hover{
 	background-color:#4682B4;
 	color:#F5F5DC;
 	box-shadow: 0 0 0 4px white, 0 0 0 8px #4682B4;

@@ -1,15 +1,4 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html{
-    scroll-behavior:smooth;
-}
-body{
-    min-height: 100vh;
-}
 /*Header Content*/
 header{
     background-image: url(../images/Heritage-Hats-Header.jpg);
@@ -83,25 +72,29 @@ nav ul{
 }
 /*About Us*/
 #about-us{
-    margin: 2em 2em;
+    margin: 2em 3em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 1.5em;
 }
 #about-us img{
-    width: 100%;
-    max-width: 651px;
+    max-width: 100%; 
 }
 /*Hat Types*/
 #hat-types{
-    margin: 2em 2em;
+    margin: 2em 3em;
 
+}
+.brand-logo{
+  max-width: 100%;
+  height: auto;
 }
 .hat-gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
     text-align:center;
+    margin: 1em 0 0 0;
 }
 .button{
     display: flex;
@@ -110,12 +103,13 @@ nav ul{
     margin: 1.5em 0;
 }
 #restoration-services{
-    margin: 2em 2em;
+    margin: 2em 3em;
 }
 .services{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5em
+    gap: 0.5em;
+    margin: 1em;
 }
 .card-1,.card-2{
     display: block;
@@ -154,6 +148,7 @@ nav ul{
     bottom: 0; /* At the bottom. Use top:0 to append it to the top*/
     width: 100%; /* Full width */
     padding: 20px; /* Some padding */
+    font-family: 'Avenir Next LT Pro';
   }
   .content-1{
     background-color: #D2B48C;
@@ -167,7 +162,6 @@ nav ul{
   }
 
   #what-customers-say{
-    margin: 2em 2em;
     background-image: url(../images/Woodbackground.jpg);
     background-size: cover;
     color: #F5F5DC;
@@ -177,28 +171,51 @@ nav ul{
     text-align: center;
   }
   .quote-1,.quote-2{
-    display: none;
-  }
-  #events-and-conventions{
-    margin: 2em 2em;
-  }
-  .gallery{
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.75em;
-    justify-content: center;
-    align-items: center;
     margin: 2em 3em;
   }
+  #events-and-conventions{
+    margin: 2em 3em;
+  }
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2em;
+    row-gap: 1em;
+    margin: 0;
+
+  }
   .image{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:0;
+    padding:0;
   }
   .phone{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5em 0;
+  }
+
+  footer{
+    background-color: #4682B4;
+  }
+
+  .footer-content{
+    margin: 1em 2em 0 2em;
+    padding: 1em;
+    color:#F5F5DC;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    font-family: 'Avenir Next LT Pro';
+  }
+  .footer-content ul{
+    list-style-type:none;
+  }
+  .phone-number,.location{
+    display: inline-flex;
+    align-items: center;
   }
